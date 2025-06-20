@@ -1,0 +1,81 @@
+.dashboard {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4e73df;
+  color: white;
+  padding: 10px 20px;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  margin: 0 15px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.dashboard-content {
+  margin-top: 20px;
+}
+
+.event-stats {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.stat-box {
+  background-color: #f8f9fc;
+  border-radius: 6px;
+  padding: 20px;
+  text-align: center;
+  flex: 1;
+  margin: 0 10px;
+}
+
+.quick-actions {
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #4e73df;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.recent-events table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.recent-events th, .recent-events td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.recent-events th {
+  background-color: #f1f1f1;
+}
