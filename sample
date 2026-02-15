@@ -1,0 +1,3 @@
+# This is a sample file for testing
+thisset = {"apple", "banana", "cherry"}
+print(thisset)
